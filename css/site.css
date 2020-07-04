@@ -1,0 +1,84 @@
+/* @import url('https://fonts.googleapis.com/css?family=Merienda'); */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color: #0038ff;
+}
+
+a:hover {
+    color: #0038ff;
+}
+
+#contents {
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.container {
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#name {
+    /* font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; */
+    font-family: 'Oleo Script', serif;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #0038ff;
+}
+
+#name img{
+    height: 80px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+#photo img{
+    width: 300px;
+}
+
+#link{
+    font-family: 'Oleo Script', serif;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+#link li{
+    margin-bottom: 10px;
+}
+
+#blue {
+    height: 5px;
+    background-color: #30baef;
+}
+
+#blue2 {
+    height: 5px;
+    background-color: #60deef;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
