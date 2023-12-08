@@ -55,14 +55,17 @@ a:hover {
     width: 300px;
 }
 
-#link{
+#link {
     font-family: 'Oleo Script', serif;
     font-size: 20px;
     margin-top: 40px;
+    position: relative;
+    z-index: 200;
 }
 
 #link li{
     margin-bottom: 10px;
+    z-index: 200;
 }
 
 #blue {
@@ -80,4 +83,5 @@ a:hover {
     display: block;
     top: 0;
     left: 0;
+    z-index: 100;
   }
