@@ -79,9 +79,11 @@ a:hover {
 }
 
 .background {
+    width: 100%;
+    height: auto !important;
     position: absolute;
     display: block;
     top: 0;
     left: 0;
     z-index: 100;
-  }
+}
